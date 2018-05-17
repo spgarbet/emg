@@ -1,12 +1,5 @@
-demg <- function(x, mu=0, sigma=1, lambda=1, log=FALSE)
+demg <- Vectorize(function(x, mu=0, sigma=1, lambda=1, log=FALSE)
 {
-  l <- max(length(x), length(mu), length(sigma), length(lambda))
-  
-  x     <- rep(x,     times=ceiling(l/length(x)),     length.out=l)
-  mu    <- rep(mu,    times=ceiling(l/length(mu)),    length.out=l)
-  sigma <- rep(sigma, times=ceiling(l/length(sigma)), length.out=l)
-  lambda<- rep(lambda,times=ceiling(l/length(lambda)),length.out=l)
-  
   if(min(sigma) <= 0.0)       {stop("Sigma must be greater than zero") }
   if(min(lambda) <= 0.0)      {stop("Lambda must be greater than zero")}
 
@@ -23,5 +16,5 @@ demg <- function(x, mu=0, sigma=1, lambda=1, log=FALSE)
   result[is.nan(result)] <- 0
 
   result
-}
+})
 
