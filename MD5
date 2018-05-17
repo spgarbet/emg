@@ -1,0 +1,14 @@
+8411d92b8ce39abd3893e3fc6673d37f *DESCRIPTION
+a486aa22cba7910d2044377203344065 *NAMESPACE
+9985a6cd088c51ee81715a7a710f7d16 *R/demg.R
+0ed7f9891e1dfb3ede585998551a443a *R/emg.mle.R
+97585b53802da09a71b8b96e18162ea9 *R/emg.nllik.R
+a1e9a8d26b859c8c6e51ffb07137f05a *R/pemg.R
+ca16138c20a4f1ba3e6a2dafe32f7848 *R/qemg.R
+1276408c4273133a67232a4d39090f92 *R/remg.R
+b88a4cfadd58c60b84a1b3444d78f30c *data/pc9_3um_erlotinib.rda
+21b5aa3d0b2c608b0b59bac9f51bf8e2 *man/EMG.Rd
+fa99cc98e4e9ca3ef0f256436e96e301 *man/emg-package.Rd
+fec5b5d0e247efed21b4db11ca0db5c1 *man/emg.mle.Rd
+ea6e9c4ff68ee6740f1aeebfb5dc83e1 *man/emg.nllik.Rd
+5f3c3147ab0ca412f2ebd66a420e76df *man/pc9_3um_erlotinib.Rd
