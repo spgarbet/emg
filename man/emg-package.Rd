@@ -10,7 +10,6 @@
 \tabular{ll}{
 Package: \tab emg\cr
 Type: \tab Package\cr
-Version: \tab 1.0.5\cr
 Date: \tab 2012-01-03\cr
 License: \tab GPL 2.0\cr
 LazyLoad: \tab yes\cr
@@ -21,7 +20,7 @@ LazyLoad: \tab yes\cr
 \author{
 Shawn Garbett, 
 Mark Kozdoba, 
-Maintainer: Shawn Garbett <Shawn.Garbett@Vanderbilt.edu>
+Maintainer: Shawn Garbett <Shawn@Garbett.org>
 }
 \references{
   Gladney H.M., B.F. Dowden, J.D. Swalen. Computer-Assisted Gas-Liquid Chromatography. Anal. Chem., 1969, 41(7):883-8.
