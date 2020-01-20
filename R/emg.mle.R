@@ -9,12 +9,18 @@ emg.mle <- function(x, lower=NA, upper=NA)
    {
      upper <- list(mu=max(x), sigma=(max(x)-min(x))/4, lambda=100/mean(x))
    }
-  
+   
+   start <- list(
+      mu     = mean(x) - sd(x)*((skewness(x)/2)^(1/3)),
+      sigma  = sqrt(sd(x)^2*(1 - (skewness(x)/2)^(2/3)) ),
+      lambda = 1/(sd(x) * (skewness(x)/2)^(1/3))
+   )
+
    mle(function(mu, sigma, lambda){
-     #print(paste(x, mu, sigma, lambda))
      emg.nllik(x, mu, sigma, lambda)},
              method='L-BFGS-B',
              lower=lower,
              upper=upper,
-             start=list(mu=median(x), sigma=sd(x), lambda=1/mean(x)))
+             start=start
+       )
 }
