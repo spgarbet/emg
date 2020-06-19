@@ -54,11 +54,6 @@ remg(n, mu = 0, sigma = 1, lambda = 1)
   \eqn{\sigma}{sigma} the standard deviation of the normal and 
   \eqn{\lambda}{lambda} rate of the exponential. Note \eqn{\mu}{mu} does not represent the mean of the distribution. The mean is \eqn{\mu + 1/\lambda}{mu+1/lambda}
 }
-\seealso{
-  \code{\link[stats]{runif}} and \code{\link[base]{.Random.seed}} about random number
-  generation, \code{\link[stats]{dnorm}} for the normal distribution, and
-  \code{\link[stats]{dexp}} for the exponential distribution.
-}
 \references{
    Golubev. Exponentially modified Gaussian (EMG) relevance to distributions related to cell proliferation and differentiation. J Theor Biol. 2010 Jan 21;262(2):257-66. Epub 2009 Oct 13.
 }

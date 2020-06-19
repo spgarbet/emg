@@ -2,7 +2,7 @@ Package: emg
 Type: Package
 Title: Exponentially Modified Gaussian (EMG) Distribution
 Version: 1.0.9
-Date: 2020-01-20
+Date: 2020-06-19
 Author: Shawn Garbett, Mark Kozdoba
 Maintainer: Shawn Garbett <Shawn@Garbett.org>
 Depends: R (>= 1.8.0), stats, stats4, moments
